@@ -1,0 +1,22 @@
+{
+  "name": "crud-app-backend",
+  "version": "1.0.0",
+  "description": "Backend para la aplicación CRUD de usuarios utilizando Express y MongoDB.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crud-app-backend": "file:",
+    "express": "^4.17.1",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}

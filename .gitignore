@@ -1,0 +1,24 @@
+# Ignorar la carpeta node_modules en la raíz, frontend y backend
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Ignorar la carpeta dist en la raíz, frontend y backend
+dist/
+frontend/dist/
+backend/dist/
+
+# Ignorar archivos de entorno en la raíz, frontend y backend
+.env
+frontend/.env
+backend/.env
+
+# Ignorar archivos de log en la raíz, frontend y backend
+*.log
+frontend/*.log
+backend/*.log
+
+# Ignorar archivos de configuración de IDE en la raíz, frontend y backend
+.vscode/
+frontend/.vscode/
+backend/.vscode/
